@@ -76,7 +76,7 @@ Partial Class MainForm
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.m_txb71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.m_txb71.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.m_txb71.Location = New System.Drawing.Point(12, 366)
+        Me.m_txb71.Location = New System.Drawing.Point(12, 376)
         Me.m_txb71.Multiline = True
         Me.m_txb71.Name = "m_txb71"
         Me.m_txb71.ReadOnly = True
@@ -166,7 +166,7 @@ Partial Class MainForm
         '
         Me.m_btn73.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.m_btn73.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.m_btn73.Location = New System.Drawing.Point(660, 672)
+        Me.m_btn73.Location = New System.Drawing.Point(660, 682)
         Me.m_btn73.Name = "m_btn73"
         Me.m_btn73.Size = New System.Drawing.Size(120, 23)
         Me.m_btn73.TabIndex = 13
@@ -177,7 +177,7 @@ Partial Class MainForm
         '
         Me.m_btn72.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.m_btn72.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.m_btn72.Location = New System.Drawing.Point(786, 672)
+        Me.m_btn72.Location = New System.Drawing.Point(786, 682)
         Me.m_btn72.Name = "m_btn72"
         Me.m_btn72.Size = New System.Drawing.Size(120, 23)
         Me.m_btn72.TabIndex = 12
@@ -188,7 +188,7 @@ Partial Class MainForm
         '
         Me.m_btn71.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.m_btn71.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.m_btn71.Location = New System.Drawing.Point(912, 672)
+        Me.m_btn71.Location = New System.Drawing.Point(912, 682)
         Me.m_btn71.Name = "m_btn71"
         Me.m_btn71.Size = New System.Drawing.Size(100, 23)
         Me.m_btn71.TabIndex = 11
@@ -212,7 +212,7 @@ Partial Class MainForm
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.SystemColors.Window
         Me.Panel1.Controls.Add(Me.m_txb81)
-        Me.Panel1.Location = New System.Drawing.Point(12, 287)
+        Me.Panel1.Location = New System.Drawing.Point(12, 297)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1000, 34)
         Me.Panel1.TabIndex = 15
