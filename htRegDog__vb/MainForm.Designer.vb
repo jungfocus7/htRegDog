@@ -35,10 +35,10 @@ Partial Class MainForm
         Me.m_btn73 = New System.Windows.Forms.Button()
         Me.m_btn72 = New System.Windows.Forms.Button()
         Me.m_btn71 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.m_btn89 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.m_btn51 = New System.Windows.Forms.Button()
+        Me.m_btn52 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -195,16 +195,16 @@ Partial Class MainForm
         Me.m_btn71.Text = "내용 비우기"
         Me.m_btn71.UseVisualStyleBackColor = True
         '
-        'Button1
+        'm_btn89
         '
-        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Location = New System.Drawing.Point(368, 337)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(140, 23)
-        Me.Button1.TabIndex = 14
-        Me.Button1.Text = "정규식 도우미 (F1)"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.m_btn89.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.m_btn89.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.m_btn89.Location = New System.Drawing.Point(368, 337)
+        Me.m_btn89.Name = "m_btn89"
+        Me.m_btn89.Size = New System.Drawing.Size(140, 23)
+        Me.m_btn89.TabIndex = 14
+        Me.m_btn89.Text = "정규식 도우미 (F1)"
+        Me.m_btn89.UseVisualStyleBackColor = True
         '
         'Panel1
         '
@@ -217,27 +217,27 @@ Partial Class MainForm
         Me.Panel1.Size = New System.Drawing.Size(1000, 34)
         Me.Panel1.TabIndex = 15
         '
-        'Button2
+        'm_btn51
         '
-        Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Location = New System.Drawing.Point(882, 733)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(130, 23)
-        Me.Button2.TabIndex = 16
-        Me.Button2.Text = "내용 저장하기 (F6)"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.m_btn51.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.m_btn51.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.m_btn51.Location = New System.Drawing.Point(882, 733)
+        Me.m_btn51.Name = "m_btn51"
+        Me.m_btn51.Size = New System.Drawing.Size(130, 23)
+        Me.m_btn51.TabIndex = 16
+        Me.m_btn51.Text = "내용 저장하기 (F6)"
+        Me.m_btn51.UseVisualStyleBackColor = True
         '
-        'Button3
+        'm_btn52
         '
-        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Location = New System.Drawing.Point(746, 733)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(130, 23)
-        Me.Button3.TabIndex = 17
-        Me.Button3.Text = "내용 불러오기 (F5)"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.m_btn52.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.m_btn52.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.m_btn52.Location = New System.Drawing.Point(746, 733)
+        Me.m_btn52.Name = "m_btn52"
+        Me.m_btn52.Size = New System.Drawing.Size(130, 23)
+        Me.m_btn52.TabIndex = 17
+        Me.m_btn52.Text = "내용 불러오기 (F5)"
+        Me.m_btn52.UseVisualStyleBackColor = True
         '
         'MainForm
         '
@@ -245,10 +245,10 @@ Partial Class MainForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkSlateGray
         Me.ClientSize = New System.Drawing.Size(1024, 768)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.m_btn52)
+        Me.Controls.Add(Me.m_btn51)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.m_btn89)
         Me.Controls.Add(Me.m_btn73)
         Me.Controls.Add(Me.m_btn72)
         Me.Controls.Add(Me.m_btn71)
@@ -288,8 +288,8 @@ Partial Class MainForm
     Friend WithEvents m_btn73 As System.Windows.Forms.Button
     Friend WithEvents m_btn72 As System.Windows.Forms.Button
     Friend WithEvents m_btn71 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents m_btn89 As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents m_btn51 As System.Windows.Forms.Button
+    Friend WithEvents m_btn52 As System.Windows.Forms.Button
 End Class
