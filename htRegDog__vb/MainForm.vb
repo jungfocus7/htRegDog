@@ -1,5 +1,6 @@
 ﻿Imports System
 Imports System.Configuration
+Imports System.Diagnostics
 Imports System.Drawing
 Imports System.IO
 Imports System.Text.RegularExpressions
@@ -194,6 +195,14 @@ Public NotInheritable Class MainForm
     ''' <param name="tsd"></param>
     ''' <param name="tea"></param>
     Private Sub prBtn89Click(tsd As Object, tea As EventArgs)
+        '        Dim taw As New ThAlertWindow()
+        '        taw.ShowDialog(Me, String.Empty,
+        '            "두번째 작업에 옵션 정보가 없습니다.
+        '기본 설정으로 진행 하시겠습니까?")
+        'Dim url As String = "https://cheatography.com/davechild/cheat-sheets/regular-expressions/"
+        'Process.Start(url)
+        Dim pdfFile As String = ".\davechild_regular-expressions.pdf"
+        Process.Start(pdfFile)
     End Sub
 
 
