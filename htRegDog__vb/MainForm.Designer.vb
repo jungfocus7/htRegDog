@@ -67,7 +67,7 @@ Partial Class MainForm
         Me.m_txb81.Margin = New System.Windows.Forms.Padding(10)
         Me.m_txb81.Name = "m_txb81"
         Me.m_txb81.Size = New System.Drawing.Size(986, 18)
-        Me.m_txb81.TabIndex = 1
+        Me.m_txb81.TabIndex = 0
         '
         'm_txb71
         '
@@ -215,7 +215,7 @@ Partial Class MainForm
         Me.Panel1.Location = New System.Drawing.Point(12, 297)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1000, 34)
-        Me.Panel1.TabIndex = 15
+        Me.Panel1.TabIndex = 1
         '
         'm_btn51
         '
